@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: boder-box;
+}
+
+.todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-top: 4em;
+}
+
+.wrapper {
+  display: flex;
+}
+.add {
+  margin-left: 1em;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
+}
+.for-list {
+  text-align: center;
+  margin-top: 1em;
+}
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.deleteitems {
+  width: auto;
+  height: 20px;
+  cursor: pointer;
+}
+.delete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3em;
+}

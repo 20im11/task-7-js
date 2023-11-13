@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+}
+.burger-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 2em;
+  margin-top: 2em;
+  width: auto;
+  cursor: pointer;
+}
+.burger-2,
+.burger-3,
+.burger-4 {
+  background-color: limegreen;
+  font-size: 40px;
+  width: 40px;
+  height: 5px;
+  margin-top: 6px;
+}
+
+a {
+  text-decoration: none;
+  color: limegreen;
+  font-size: 3rem;
+}
+li {
+  margin-top: 4em;
+  border: 2px solid white;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px white;
+  animation: slide;
+  animation-duration: 1s;
+}
+li:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style-type: circle;
+}
+.nav-items {
+  display: none;
+}
+
+.nav-items.active {
+  display: block;
+  transition: 2s;
+  color: white;
+}
+
+.burger-3.active {
+  transition: 0.4s;
+  width: 35px;
+}
+
+.burger-2.active {
+  transition: 0.4s;
+  width: 40px;
+}
+
+.burger-4.active {
+  width: 25px;
+  transition: 0.4s;
+}
+
+body.active {
+  background-color: grey;
+  transition: 0.4s;
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 5em;
+}
+
+#input1 {
+  margin-top: 3em;
+  width: 20%;
+}
+.task1 {
+  color: red;
+  font-size: 2rem;
+}
+.todo {
+  display: flex;
+  justify-content: center;
+}
+.add {
+  height: 3vh;
+  margin-top: 3em;
+  margin-left: 0.4em;
+  box-shadow: 2px 1px 2px red;
+  cursor: pointer;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+@keyframes slide {
+  from {
+    margin-top: 7em;
+  }
+  to {
+    margin-top: 4em;
+  }
+}
