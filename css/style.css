@@ -70,7 +70,7 @@ ul {
   transition: 0.4s;
   position: absolute;
   left: 95%;
-  top: 4%;
+  top: 5.3%;
   transform: rotate(-45deg);
 }
 
@@ -79,6 +79,7 @@ ul {
   transition: 0.4s;
   position: absolute;
   left: 95.1%;
+  top: 5.3%;
   transform: rotate(45deg);
 }
 
