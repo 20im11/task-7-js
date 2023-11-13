@@ -23,6 +23,7 @@ body {
   width: 40px;
   height: 5px;
   margin-top: 6px;
+  transition: 0.2s;
 }
 
 a {
@@ -62,16 +63,23 @@ ul {
 .burger-3.active {
   transition: 0.4s;
   width: 35px;
+  display: none;
 }
 
 .burger-2.active {
   transition: 0.4s;
-  width: 40px;
+  position: absolute;
+  left: 95%;
+  top: 4%;
+  transform: rotate(-45deg);
 }
 
 .burger-4.active {
-  width: 25px;
   transition: 0.4s;
+  transition: 0.4s;
+  position: absolute;
+  left: 95.1%;
+  transform: rotate(45deg);
 }
 
 body.active {
